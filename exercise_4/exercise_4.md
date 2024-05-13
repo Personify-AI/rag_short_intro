@@ -1,4 +1,4 @@
-# Exercise 4 - Bring It All Together
+# Exercise 4 - Augment Data and Generate an Answer
 
 ## Aim
 
@@ -32,7 +32,7 @@ The first line of this (line 36) needs modifying so that you can call
 some code to retrieve your relevant chunks for the users question.
 
 Alter this line of code to call code you wrote in **exercise_3**. You could 
-either import it or copy and paste the functions in to the chatbot code.
+either import it and call the function or copy and paste the functions in to the chatbot code.
 
 
 ### 3. Ask your Bot Questions
@@ -50,6 +50,16 @@ But why not try these:
 > 'Has the Smithsonian Institute embraced Flat Earth theory?'
 
 How did your bot do?
+
+### 4. Stretch - How many tokens
+
+Edit the code a print the raw response from the OpenAI API.
+
+How many tokens did your call use. How much did it cost?
+
+https://openai.com/api/pricing/ might help.
+
+How much would it cost using GPT4?
 
 ### 4. Stretch - Designing for Multiple Turns of Conversation
 

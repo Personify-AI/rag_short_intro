@@ -1,4 +1,4 @@
 .venv/
 .idea/
 .idea
-.env
+.env_hidden

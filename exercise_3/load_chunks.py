@@ -4,7 +4,7 @@ from pinecone import Pinecone, ServerlessSpec
 from openai import OpenAI
 
 # you need to do a pip install of LangChain, you can just use the text splitter
-# pip install -qU langchain-text-splitters
+# pip install langchain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 

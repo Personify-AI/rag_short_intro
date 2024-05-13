@@ -85,7 +85,7 @@ def upsert_chunks_from(text_file):
 # Depending on how your IDE runs the code you may need to
 # change 'flat_earth.txt' to 'exercise_3/flat_earth.txt'
 create_index(index_name)
-upsert_chunks_from('flat_earth.txt')
+upsert_chunks_from('../flat_earth.txt')
 
 
 

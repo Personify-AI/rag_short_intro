@@ -61,6 +61,8 @@ you want it to do. Ensure that:
 Paste the text data from your flat_earth_extract.txt file into the System Message and 
 simulate the API call.
 
+**IMPORTANT** - keep a note of the System Message you wrote, we will use it later.
+
 ### 4. Stretch - discuss scenarios for no relevant data
 
 Imagine a scenario where the user answered a question the bot couldn't answer

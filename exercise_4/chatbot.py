@@ -53,8 +53,8 @@ def respond_to_question(question):
 # Example question: If the earth is flat, why do you only see the top half of a ship
 
 answer = respond_to_question(
-    'If the earth is flat '
-    'why does only the top half of a '
-    'ship appear when it is at a distance')
+    'If the earth is flat, '
+    'why does only the top half of it '
+    'appear when it is at a distance?')
 
 print('Answer:', answer)

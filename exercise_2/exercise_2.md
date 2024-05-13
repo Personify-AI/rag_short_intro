@@ -15,9 +15,9 @@ The exercise is complete when you can:
 
 ### 1. Set up A Virtual Environment
 
-You've likely created a new directory for this project, if you haven't, create one now.
+You've likely created a new directory for this project, and it'll have the exercises in it.
 
-Within that directory, set up a Python Venv, you will need Python 3.8 or greater. 
+Within the root directory, set up a Python Venv, you will need Python 3.8 or greater. 
 Follow these instructions or do it the way you would normally
 
     python -m venv venv
@@ -61,7 +61,9 @@ Install pinecone-client
 
 ### 2. Get Familiar with Embedding
 
-Open the **load_embeddings.py** file in this directory
+Open the **load_embeddings.py** file in this directory.
+
+In this exercise you will be embedding and loading the **questions** on line 22.
 
 The 'Embeddings' guide for OpenAI is https://platform.openai.com/docs/guides/embeddings.
 
@@ -80,7 +82,8 @@ What do you see?
 ### 3. Create Index, Embed the Data and Upsert
 
 Use the create_index() and load_questions() functions to get the
-questions data loaded into the index. You'll need to uncomment them.
+questions data loaded into the index. You will need to uncomment the calls on 
+lines 113 and 114.
 
 You will need to alter the create_index query to include the correct 
 dimension that is required for an OpenAI call to the **text-embedding-3-small** 
@@ -93,6 +96,10 @@ Go to the index in the project console in Pinecone. Is your data there yet?
 
 
 ### 4. Query the Index
+
+Your data should now be indexed, it takes a short while for the index to catch up after load.
+
+Now we're going to query it, to find the closest match.
 
 Open the **query_embeddings.py** code.
 
