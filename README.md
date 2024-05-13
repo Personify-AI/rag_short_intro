@@ -28,7 +28,7 @@ Open the root folder for the project in whatever IDE you usually use.
 
 ### 2. Get an Open AI Account
 
-We;ll need OpenAI to create Embeddings and LLM calls.
+We'll need OpenAI to create Embeddings and complete LLM calls to generate answers.
 
 Got to https://openai.com/api and log in or sign up.
 
