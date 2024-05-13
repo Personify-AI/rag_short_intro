@@ -30,7 +30,7 @@ Open the root folder for the project in whatever IDE you usually use.
 
 We'll need OpenAI to create Embeddings and complete LLM calls to generate answers.
 
-Got to https://openai.com/api and log in or sign up.
+Go to https://openai.com/api and log in or sign up.
 
 If you sign up you'll get free credit for the API.
 
