@@ -28,13 +28,15 @@ Open the root folder for the project in whatever IDE you usually use.
 
 ### 2. Get an Open AI Account
 
+We;ll need OpenAI to create Embeddings and LLM calls.
+
 Got to https://openai.com/api and log in or sign up.
 
 If you sign up you'll get free credit for the API.
 
-If you signed up sometime, you'll just need to check you have credit available.
-THe next step will let you know if that's the case. If not, you might want to just put
-the minimum amount on or just collaborate with another group on the day.
+If you signed up sometime before, you'll just need to check you have credit available.
+The next step will let you know if that's the case. If not, you might want to just put
+the minimum amount of credit on your account or just collaborate with another group on the day.
 
 See if you can successfully navigate to the Open AI Playground at:
 
@@ -46,7 +48,8 @@ Can you enter a chat question in the 'User' field, press submit and get a reply?
 ### 2. Get an OpenAI API Key
 
 
-Find you OpenAI API Key at https://platform.openai.com/api-keys
+Find your OpenAI API Key at https://platform.openai.com/api-keys. You'll likely need to create a new one
+and copy the key.
 
 We will use **dotenv** to store the keys, so edit the .env file to include 
 your OPENAI_API_KEY
@@ -56,6 +59,7 @@ your OPENAI_API_KEY
 
 ### 3. Get a Pinecone Account and API Key
 
+We will use Pinecone as our Vector DB.
 
 Go to https://www.pinecone.io, set up a free account and get an API key. This will either 
 be an option on set-up or go to **API KEYS** menu item on the left hand nav.
@@ -90,6 +94,9 @@ Again, from the terminal, install the packages:
 
 Go and run the code **verify_setup.py** located in this (the root) directory.
 
-It should all work.
+It should all work and if it does, you are ready to start following Exercise 1
+to 4 found in the directories in this project.
+
+Enjoy!
 
 
