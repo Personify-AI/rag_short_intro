@@ -6,7 +6,7 @@ The aim of the exercise is to:
 1. Familiarise yourself with chunking
 2. Upsert embedded chunks from the text
 
-The exercise is complete when you can:
+The exercise is complete when:
 - you have a Pinecone Index with your upserted chunks
 - you can successfully query the index to retrieve a string with excerpts
 
