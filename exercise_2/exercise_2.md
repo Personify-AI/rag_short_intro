@@ -13,7 +13,10 @@ The exercise is complete when you can:
 
 ## Method
 
-### 1. Set up A Virtual Environment
+If you've done all your setup of Virtual Environments, Environment Variables and 
+external services you can go straight to **step 2**
+
+### 1a. Set up A Virtual Environment
 
 You've likely created a new directory for this project, and it'll have the exercises in it.
 
@@ -30,7 +33,7 @@ or a PC
 
     venv/bin/activate 
 
-### 1. Set Up OpenAI API Key (for using Embeddings API)
+### 1b. Set Up OpenAI API Key (for using Embeddings API)
 
 Find you OpenAI API Key at https://platform.openai.com/api-keys
 
@@ -44,7 +47,7 @@ Install openai and python-dotenv:
     pip install openai python-dotenv
 
 
-### 1. Set up Pinecone
+### 1c. Set up Pinecone
 
 Go to https://www.pinecone.io, set up a free account and get an API key. This will either 
 be an option on set-up or go to **API KEYS** menu item on the left hand nav.
